@@ -7,3 +7,20 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+
+:root {
+    --fundo: #ffffff;
+    --texto: #1a1a1a;
+}
+
+.tema-escuro {
+    --fundo: #111111;
+    --texto: #f0f0f0;
+}
+
+body {
+    background: var(--fundo);
+    color: var(--texto);
+    transition: background 0.2s ease, color 0.2s ease;
+}
